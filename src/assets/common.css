@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  _height: 100%
+}
+@font-face {
+  font-family: 'webfont';
+  src: url('./fonts/webfont.eot');
+  /* IE9*/
+  src: url('./fonts/webfont.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/webfont.woff') format('woff'),
+    /* chrome、firefox */
+    url('./fonts/webfont.ttf') format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('./fonts/webfont.svg#webfont') format('svg');
+  /* iOS 4.1- */
+}
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+iframe,
+pre,
+code,
+fieldset,
+legend,
+form,
+input,
+select,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+figure {
+  margin: 0;
+  padding: 0
+}
+html,
+body{
+height: 100%;
+}
+
+body {
+  min-height: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+html{font-size:62.5%;}  
+body{font-size:12px;font-size:1.1rem ;} 
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 62.5% !important;
+ }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 70.5% !important;
+ }
+}
+@media only screen and (min-width: 410px) {
+ html {
+   font-size: 80% !important;
+ }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 95% !important;
+ }
+}
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+iframe,
+pre,
+code,
+fieldset,
+legend,
+form,
+p,
+blockquote,
+figure,
+header,
+footer,
+nav,
+article,
+section,
+aside,
+address,
+figcaption {
+  *zoom: 1
+}
+
+li {
+  list-style-type: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+@media screen and (max-device-width: 320px) {
+  body {
+    -webkit-text-size-adjust: none
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: none
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    -webkit-text-size-adjust: none
+  }
+}
+.wrapper{
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    -webkit-text-size-adjust: none
+  }
+}
+
+iframe,
+frame,
+fieldset,
+img {
+  border: 0 none
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  cursor: pointer
+}
+
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer
+}
+
+input,
+textarea,
+button {
+  -webkit-border-radius: 0;
+  -webkit-appearance: none
+}
+
+input[type=radio] {
+  -webkit-border-radius: 100%;
+  -webkit-appearance: radio
+}
+
+input[type=checkbox] {
+  -webkit-appearance: checkbox
+}
+
+input[type=search] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+textarea {
+  overflow: auto;
+  resize: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+caption,
+th {
+  text-align: left
+}
+
+th {
+  font-weight: normal
+}
+
+em,
+cite,
+address,
+i {
+  font-style: normal
+}
+
+sup {
+  vertical-align: text-top
+}
+
+sub {
+  vertical-align: text-bottom
+}
+
+body,
+input,
+select,
+button,
+textarea {
+
+  font-family: "webfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+a:link,
+a:visited,
+a:active,
+a {
+  text-decoration: none;
+}
+
+a * {
+  *cursor: pointer
+}
+
+
+body,
+html {
+  max-width: 540px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+div,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5
+}
+button,img{
+  line-height: initial;
+}
+.content {
+  padding: 0 5%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.contbox {
+  padding-top: 5rem;
+}
+.loginbox{
+  width: 90%;
+  margin: 0 5%;
+}
+.Containera,
+.Containera>div,
+body,
+html {
+  height: 100%;
+}
+
+
+/*  */
+.tac{
+text-align: center;
+}
+
+.mt10 {
+  margin-top: 10px
+}
+
+.mt15 {
+  margin-top: 15px
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.ml10 {
+  margin-left: 10px
+}
+
+.ml15 {
+  margin-left: 15px
+}
+
+.ml20 {
+  margin-left: 20px
+}
+
+.pl10 {
+  padding-left: 10px
+}
+
+.pl15 {
+  padding-left: 15px
+}
+
+.pl20 {
+  padding-left: 20px
+}
+
+/* flex布局 */
+.flexcenter{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.flexsb{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+/* [class*=van-hairline]::after {
+  border: none;
+} */
+
+/* ios端滑动卡顿 */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+.van-cell {
+  display: flex;  
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.van-loading--vertical {
+  margin-top: 50px;
+}
+
+.van-dialog {
+  max-width: 500px;
+}
+.van-overlay{
+  z-index: 102!important;
+}
+#app {
+  height: 100%;
+}
+
+img[src=''],
+img:not([src]) {
+  opacity: 0;
+}
+
+.van-loading {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nodata {
+  text-align: center;
+  padding-top: 15px;
+  color: #000;
+  font-size: 1.45rem;
+}
+.pb10rem{
+  padding-bottom: 7rem;
+  min-height: calc(100% - 7rem);
+  height: calc(100% - 7rem);
+}
+.pt5rem{
+  padding-top: 5rem;
+  min-height: calc(100% - 5rem);
+  height: calc(100% - 5rem);
+}
+/* 分隔条 */
+.cut-off{
+  height: 6px;
+  width: 100%;
+  background: #f6f5fa;
+}
+.cut-off90{
+  width:110%;
+  margin-left: -5%;
+  height: 6px;
+  background: #f6f5fa;
+}
+/* 弹出框 */
+.dialog{
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  z-index: 2002;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialogcont{
+  position: relative;
+  width: calc(80% - 30px);
+  height: calc(60% - 30px);
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+}
+.dialogclose{
+  width: 3rem;
+  height: 3rem;
+  left: calc(50% - 1.5rem);
+  position: absolute;
+  bottom: -5rem;  
+}
+/* van按钮行高取消 */
+.van-button__text{
+  line-height: normal;
+}
+/* 取消vantvan-cell自带输入框下边线 */
+.van-hairline--top-bottom::after{
+  border-width:0;
+}
+.van-cell::after{
+  border:  none;
+}
+.van-button--normal{
+  font-size: 1.25rem;
+}
+
+/*颜色 红色 */
+.cred{
+  color: red;
+}
+
+.cgreen{
+  color: #04ad00;
+}
+.noimg{
+  height: inherit;
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid #efefef;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
